@@ -1,6 +1,8 @@
 ﻿namespace Algorithms.LeetCode.Arrays;
 
-// https://leetcode.com/problems/permutations/
+/// <summary>
+/// https://leetcode.com/problems/permutations/
+/// </summary>
 public class Permutations
 {
     [Fact]

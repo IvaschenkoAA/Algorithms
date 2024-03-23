@@ -2,7 +2,9 @@
 
 namespace Algorithms.LeetCode.Strings;
 
-// https://leetcode.com/problems/valid-parentheses/
+/// <summary>
+/// https://leetcode.com/problems/valid-parentheses/
+/// </summary>
 public class ValidParentheses
 {
     [Fact]
@@ -56,5 +58,3 @@ public class ValidParentheses
         return lastBrace == expectedBrace;
     }
 }
-
-// https://leetcode.com/problems/valid-anagram/

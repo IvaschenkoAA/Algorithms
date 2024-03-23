@@ -1,6 +1,8 @@
 ﻿namespace Algorithms.LeetCode.Arrays;
 
-// https://leetcode.com/problems/majority-element/
+/// <summary>
+/// https://leetcode.com/problems/majority-element/
+/// </summary>
 public class MajorityElementTests
 {
     [Fact]

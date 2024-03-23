@@ -1,6 +1,8 @@
 ﻿namespace Algorithms.LeetCode.Arrays;
 
-// https://leetcode.com/problems/move-zeroes/
+/// <summary>
+/// https://leetcode.com/problems/move-zeroes/
+/// </summary>
 public class MoveZeroesTests
 {
     [Fact]

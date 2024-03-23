@@ -1,12 +1,12 @@
 using FluentAssertions;
 
-namespace Algorithms;
+namespace Algorithms.Another;
 
 public class SeaFight
 {
     public static IEnumerable<object[]> ShipsData => new[] { new object[] { ShipsField, ShipsCount } };
 
-    private static readonly bool[,] ShipsField = 
+    private static readonly bool[,] ShipsField =
     {
         { true,  false, false, false },
         { false, false, true,  true  },
@@ -20,7 +20,7 @@ public class SeaFight
     [MemberData(nameof(ShipsData))]
     public void CalculateShips(bool[,] matrix, int expectedCount)
     {
-        int width =  matrix.GetLength(0);
+        int width = matrix.GetLength(0);
         int height = matrix.GetLength(1);
 
         int count = 0;
